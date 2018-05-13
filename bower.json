@@ -1,6 +1,6 @@
 {
   "name": "bitcore-lib-pushi",
-  "main": "./bitcore-lib-pushi.min.js",
+  "main": "./bitcore-lib-pushi.js",
   "version": "0.15.3",
   "homepage": "https://github.com/pushievo/bitcore-lib-pushi",
   "authors": [

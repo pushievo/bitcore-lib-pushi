@@ -1,5 +1,5 @@
 {
-  "name": "@pushievo/pushicore-lib",
+  "name": "bitcore-lib-pushi",
   "version": "0.15.3",
   "description": "A pure and powerful JavaScript Dash library.",
   "author": "BitPay <dev@bitpay.com>",
