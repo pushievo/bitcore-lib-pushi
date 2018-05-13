@@ -5215,18 +5215,17 @@ function removeNetwork(network) {
 addNetwork({
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x4c,
+  pubkeyhash: 0x37,
   privatekey: 0xcc,
   scripthash: 0x10,
   xpubkey: 0x488b21e,    // 'xpub' (Bitcoin Default)
   xprivkey: 0x488ade4,   // 'xprv' (Bitcoin Default)
   networkMagic: 0xbf0c6bbd,
-  port: 9999,
+  port: 9847,
   dnsSeeds: [
-    'dnsseed.darkcoin.io',
-    'dnsseed.dashdot.io',
-    'dnsseed.masternode.io',
-    'dnsseed.pushipay.io'
+    'dnsseed.pushiplay.pw',
+    'dnsseed.superpool.win',
+    'dnsseed.guardcoin.trade'
   ]
 });
 
@@ -5255,12 +5254,10 @@ var testnet = get('testnet');
 // Add configurable values for testnet/regtest
 
 var TESTNET = {
-  PORT: 19999,
+  PORT: 19847,
   NETWORK_MAGIC: BufferUtil.integerAsBuffer(0xcee2caff),
   DNS_SEEDS: [
-    'testnet-seed.darkcoin.io',
-    'testnet-seed.dashdot.io',
-    'test.dnsseed.masternode.io'
+    'testnet-seed.pushiplay.pw'
   ]
 };
 
@@ -66397,7 +66394,7 @@ function block(c, tweak, b, off) {
 }
 },{"./helper":267,"./op":271}],275:[function(require,module,exports){
 module.exports={
-  "name": "@pushievo/pushicore-lib",
+  "name": "bitcore-lib-pushi",
   "version": "0.15.3",
   "description": "A pure and powerful JavaScript Dash library.",
   "author": "BitPay <dev@bitpay.com>",
